@@ -1,0 +1,37 @@
+:root {
+    --Primaire: #9356dc;
+    --Secondaire: #ff79da;
+    --Tertiaire: #99E2D0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* LOGO */
+.logo {
+    width: 100vw;
+}
+
+.logo__img {
+    width: 25vw;
+    height: 45px;
+    font-family: 'Shrikhand', cursive;
+    display: block;
+    margin: 15px auto;
+}
+
+.location {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd9d9;;
+    border-top: 3px solid #d2cccc;
+}
+
+.location__paragraphe {
+    font-family: 'Roboto', sans-serif;
+}
