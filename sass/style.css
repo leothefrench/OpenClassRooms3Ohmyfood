@@ -35,3 +35,19 @@ body {
 .location__paragraphe {
   font-family: "Roboto", sans-serif;
 }
+
+.rechercherMenu {
+  background-color: rgb(203, 202, 202);
+  padding-left: 50px;
+  padding: 50px 0px 50px 50px;
+}
+
+.rechercherMenu__titre {
+  font-family: "Roboto", cursive;
+  margin: 0px;
+}
+
+.rechercherMenu__paragraphe {
+  font-family: "Roboto", sans-serif;
+  color: rgb(175, 158, 158);
+}
