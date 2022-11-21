@@ -92,18 +92,26 @@ body {
     padding-left: 20px;
 }
 .card {
-    padding-left: 20px;
-}
-
-.card__imgcadre {
-        width: 95vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
 
 .card__image {
-    width: 95vw;
+    width: 90vw;
+    height: 150px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 
 .card__underBlock {
+    width: 90vw;
+    height: 65px;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: gold;
 }
 
