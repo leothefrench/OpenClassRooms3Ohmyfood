@@ -13,13 +13,15 @@ body {
 /* LOGO */
 .logo {
   width: 100vw;
+  height: 65px;
+  display: flex;
+  align-items: center;
 }
 
 .logo__img {
-  width: 25vw;
-  height: 45px;
+  width: 195px;
+  height: 35px;
   font-family: "Shrikhand", cursive;
-  display: block;
   margin: 15px auto;
 }
 
@@ -28,7 +30,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ddd9d9;
+  background-color: #eaeaea;
   border-top: 3px solid #d2cccc;
 }
 
@@ -59,4 +61,60 @@ body {
   padding: 20px;
   border: 1px solid black;
   border-radius: 20px;
+}
+
+/* FONCTIONNEMENT */
+.btn {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(216, 211, 211);
+  width: 95vw;
+}
+
+.btn__span {
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+.btn__choice {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+/* CARD */
+.containerRestaurant {
+  background-color: #9356dc;
+}
+
+.restaurantTitre {
+  padding-left: 20px;
+}
+
+.card {
+  padding-left: 20px;
+}
+
+.card__imgcadre {
+  width: 95vw;
+}
+
+.card__image {
+  width: 95vw;
+}
+
+.card__underBlock {
+  background-color: gold;
+}
+
+.footer {
+  background-color: rgb(111, 89, 89);
+  color: white;
+}
+
+.logo__footer {
+  height: 20px;
+  width: 100px;
+  font-family: "Shrikhand", cursive;
 }
