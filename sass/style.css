@@ -19,8 +19,8 @@ body {
 }
 
 .logo__img {
-  width: 195px;
-  height: 35px;
+  width: 155px;
+  height: 30px;
   font-family: "Shrikhand", cursive;
   margin: 15px auto;
 }
@@ -85,7 +85,7 @@ body {
 
 /* CARD */
 .containerRestaurant {
-  background-color: #9356dc;
+  background-color: #f1edf4;
 }
 
 .restaurantTitre {
@@ -107,7 +107,7 @@ body {
      object-fit: cover;
 }
 
-.card__underBlock {
+.cardUnderBlock {
   width: 90vw;
   height: 65px;
   border-radius: 0px 0px 20px 20px;
@@ -115,6 +115,10 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: gold;
+}
+
+.cardUnderBlock__nameRestaurant--titre {
+  text-decoration: none;
 }
 
 .footer {
